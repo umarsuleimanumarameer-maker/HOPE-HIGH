@@ -1,0 +1,8 @@
+/* Prefects page */
+.demo-notice{font-size:13px;padding:14px 16px;background:#fff7e4;border-left:4px solid var(--yellow);border-radius:7px;margin-bottom:24px}
+.prefect-photo{position:relative;margin-bottom:20px}
+.prefect-photo .profile-photo{margin-bottom:0}
+.prefect-photo .photo-fallback{position:static;inset:auto;aspect-ratio:4/5;place-items:center;align-content:center;text-align:center;border-radius:13px;background:linear-gradient(135deg,#e4f5e9,#e7efff);font-size:60px}
+.prefect-photo .photo-fallback span{font-size:56px}
+.prefect-photo .photo-fallback small{font-size:12px;font-weight:700;color:var(--muted);margin-top:6px}
+.prefect-class{font-weight:700;color:var(--green-dark)}
