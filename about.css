@@ -3,9 +3,9 @@
 @media(max-width:850px){.story-grid{grid-template-columns:1fr;gap:35px}.story-image{max-width:600px}.core-values-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.about-level-grid{grid-template-columns:1fr}}
 @media(max-width:600px){.about-hero{padding:60px 0}.about-hero h1{font-size:36px}.about-hero-content>p{font-size:14px}.about-hero-actions{flex-direction:column}.about-hero-actions .btn{width:100%}.story-image>img{height:280px}.story-image{min-height:280px}.purpose-grid{grid-template-columns:1fr}.purpose-card{padding:25px}.core-values-grid{gap:12px}.core-value{padding:20px 12px}.about-cta-inner{align-items:flex-start;flex-direction:column}}
 
-/* About page hero uses the same photo as the home page (images/hero.jpg) */
-.about-hero{background:linear-gradient(90deg,rgba(7,42,55,.92),rgba(7,42,55,.76) 48%,rgba(7,42,55,.3)),url("../images/hero.jpg") center 50%/cover no-repeat;background-color:#0b3a4a}
-@media(max-width:600px){.about-hero{background:linear-gradient(rgba(7,42,55,.86),rgba(7,42,55,.72)),url("../images/hero.jpg") 58% center/cover no-repeat;background-color:#0b3a4a}}
+/* About page hero uses the same photo as the home page (hero.jpg) */
+.about-hero{background:linear-gradient(90deg,rgba(7,42,55,.92),rgba(7,42,55,.76) 48%,rgba(7,42,55,.3)),url("hero.jpg") center 50%/cover no-repeat;background-color:#0b3a4a}
+@media(max-width:600px){.about-hero{background:linear-gradient(rgba(7,42,55,.86),rgba(7,42,55,.72)),url("hero.jpg") 58% center/cover no-repeat;background-color:#0b3a4a}}
 
 /* Our Journey timeline */
 .journey-section{background:#fff}
